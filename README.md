@@ -13,3 +13,5 @@ Some components were written by **Mahdi Vasighi**, and others by **Hamid Khoeini
 
 This version is maintained by **Hamid Khoeini**, co-author and contributor to the codebase.
 
+![DOC-SOM](Graphical_Abstract.png)
+
