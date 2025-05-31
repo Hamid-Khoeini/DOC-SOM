@@ -19,17 +19,17 @@ This version is maintained by **Hamid Khoeini**, co-author and contributor to th
 
 To execute the code, follow these steps:
 
-Run the main script:
+1. Run the main script:
 
 - Sub python main.py
 
-After launching, you will be prompted to:
+2. After launching, you will be prompted to:
 
 - Sub Select the dataset by entering its corresponding number.
 
 - Sub Select the target class within the chosen dataset.
 
-You can manually configure several key parameters in the source code, such as:
+3. You can manually configure several key parameters in the source code, such as:
 
 - Sub DBGSOM network growth rate
 
@@ -37,7 +37,7 @@ You can manually configure several key parameters in the source code, such as:
 
 - Sub Other training and evaluation settings
 
-These parameters can be adjusted directly within the code files before running the program.
+# These parameters can be adjusted directly within the code files before running the program.
 
 
 
