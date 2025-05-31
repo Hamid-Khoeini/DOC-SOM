@@ -21,21 +21,21 @@ To execute the code, follow these steps:
 
 1. Run the main script:
 
-> - Sub python main.py
+> python main.py
 
 2. After launching, you will be prompted to:
 
-> - Sub Select the dataset by entering its corresponding number.
+> Select the dataset by entering its corresponding number.
 
-> - Sub Select the target class within the chosen dataset.
+> Select the target class within the chosen dataset.
 
 3. You can manually configure several key parameters in the source code, such as:
 
-> - Sub DBGSOM network growth rate
+> DBGSOM network growth rate
 
-> - Sub Amount of impurity added to the selected class
+> Amount of impurity added to the selected class
 
-> - Sub Other training and evaluation settings
+> Other training and evaluation settings
 
 ### These parameters can be adjusted directly within the code files before running the program.
 
