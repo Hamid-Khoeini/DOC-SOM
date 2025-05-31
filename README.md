@@ -31,13 +31,13 @@ To execute the code, follow these steps:
 
 3. You can manually configure several key parameters in the source code, such as:
 
-- Sub DBGSOM network growth rate
+> - Sub DBGSOM network growth rate
 
 - Sub Amount of impurity added to the selected class
 
 - Sub Other training and evaluation settings
 
-# These parameters can be adjusted directly within the code files before running the program.
+### These parameters can be adjusted directly within the code files before running the program.
 
 
 
