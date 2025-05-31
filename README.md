@@ -1,4 +1,4 @@
-Code for the paper "***DOC-SOM: Density-Driven One-Class Classification with Dynamic Self-Organizing Maps***" by Mahdi Vasighi and Hamid Khoeini. Developed jointly, and currently maintained by Hamid Khoeini.
+Code for the paper "**DOC-SOM: Density-Driven One-Class Classification with Dynamic Self-Organizing Maps**" by Mahdi Vasighi and Hamid Khoeini. Developed jointly, and currently maintained by Hamid Khoeini.
 
 ## Authors
 **Mahdi Vasighi**, **Hamid Khoeini**  
