@@ -1,44 +1,34 @@
-Code for the paper "**DOC-SOM: Density-Driven One-Class Classification with Dynamic Self-Organizing Maps**" by Mahdi Vasighi and Hamid Khoeini. Developed jointly, and currently maintained by Hamid Khoeini.
-
-## Authors
-**Mahdi Vasighi**, **Hamid Khoeini**  
-_(as listed in the original paper)_
-
-## About this repository
-This repository contains the implementation for the paper **"DOC-SOM"**, co-authored by Mahdi Vasighi and Hamid Khoeini.
-
-The codebase was collaboratively developed.  
-Some components were written by **Mahdi Vasighi**, and others by **Hamid Khoeini**.
-
-This version is maintained by **Hamid Khoeini**, co-author and contributor to the codebase.
+Code for the paper **"DOC-SOM: Density-Driven One-Class Classification with Dynamic Self-Organizing Maps"** by **Mahdi Vasighi** and **Hamid Khoeini**.
+Collaboratively developed; currently maintained by **Hamid Khoeini**.
 
 ![DOC-SOM](Graphical_Abstract.png)
 
+## Authors
+
+**Mahdi Vasighi**, **Hamid Khoeini**
+*(as listed in the original paper)*
+
+## About
+
+This repository contains the implementation of **DOC-SOM**, introduced in the above paper. The code was jointly developed by the authors, with ongoing maintenance by **Hamid Khoeini**.
+
 ## How to Run
 
-To execute the code, follow these steps:
+1. Launch the main script:
 
-1. Run the main script:
+   ```bash
+   python main.py
+   ```
 
-> python main.py
+2. Follow the prompts:
 
-2. After launching, you will be prompted to:
+   * Select a dataset by number
+   * Choose the target class
 
-> Select the dataset by entering its corresponding number.
+3. Parameters such as:
 
-> Select the target class within the chosen dataset.
+   * DBGSOM growth rate
+   * Impurity level
+   * Training settings
 
-3. You can manually configure several key parameters in the source code, such as:
-
-> DBGSOM network growth rate
-
-> Amount of impurity added to the selected class
-
-> Other training and evaluation settings
-
-### These parameters can be adjusted directly within the code files before running the program.
-
-
-
-
-
+   ...can be configured directly in the source code before execution.
