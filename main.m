@@ -128,7 +128,7 @@ for repeatIdx = 1:10
             [pdfKernels, pCenters] = estimateKDE(kernelCenters, kernelCenters, h, network.hitcount, kernelShapeParam, normConstant, datasetInfo.numFeatures);
 
             % Set Local Thresholds
-            localThreshold = setLocalThresholds(pCenters, gammaVal);
+            localThreshold = setLocalThresholds(pCenters, gammaVal, network);
 
             % Final Decision based on thresholds
             selectedFeatures = setdiff(1:datasetInfo.numFeatures, nonEligible);
@@ -189,7 +189,7 @@ excludedFeatures = detectNonEligibleFeatures(kernelCenters, h_test, 2);
 
 
 % Set local thresholds for each neuron
-localThreshold = setLocalThresholds(pCenters, gammaVal);
+localThreshold = setLocalThresholds(pCenters, gammaVal, finalNet);
 
 
 % Select only valid features for final prediction
